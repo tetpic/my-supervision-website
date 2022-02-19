@@ -1,0 +1,92 @@
+.sidenav {
+    width: 250px;
+    position: fixed;
+    height: 100vh;
+    background-color: #bdbcbc;
+}
+
+.sidenav-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+    height: -webkit-fill-available;
+    max-height: 730px;
+
+}
+
+.logo {
+    @include manrope;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    span {
+        @include mainbluetext;
+    }
+}
+
+.creed {
+    @include roboto;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.side-nav-main {
+    @include manrope;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 0px;
+    // margin-top: 28px;
+    li {
+        cursor: pointer;
+        margin-top: 14px;
+        list-style-type: none;
+    }
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // margin-top: 43px;
+    height: 216px;
+}
+
+.cont-list {
+    display: flex;
+    align-items: center;
+
+    @include manrope;
+    font-size: 16px;
+    font-weight: 400;
+    width: 208px;
+    img {
+        margin-right: 10px;
+    }
+}
+
+.social-media {
+    height: 26px;
+    display: flex;
+    button {
+        margin-right: 2px;
+    }
+    img {
+        width: 14px;
+        height: 14px;
+    }
+
+}
+
+
+.side-button {
+    margin-bottom: 10px;
+    width: 180px;
+    height: 40px;
+}
+
+
