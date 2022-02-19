@@ -1,0 +1,97 @@
+footer{
+    position: relative;
+    z-index: 100;
+    height: 364px;
+}
+
+.footer__right-side {
+    @include mainblueback;
+
+}
+.footer__left-side {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 160px;
+    padding-top: 40px;
+    background-color: white;
+    padding-bottom: 91px;
+    .confidential{
+       margin-top: 65px;
+       @include manrope;
+       font-size: 16px;
+       line-height: 22px;
+       font-weight: 400;
+       color:  rgba(144, 144, 144, 1);
+    }
+}
+
+.footer-row {
+    height: 364px;
+}
+
+.footer-right-up {
+    height: 146px;
+    color: white;
+    @include manrope;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 54px;
+    .btn {
+        border: 0px;
+        @include manrope;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        &:focus{
+            background-color: unset;
+            box-shadow: none;
+            outline: none;
+        }
+        &:hover {
+            color: white;
+        }
+
+    }
+
+}
+
+.footer-contacts {
+    height: 240px;
+    .footer-cont-right {
+        padding-top: 36px;
+        padding-left: 72px;
+        height: 80;
+        color: white;
+        @include manrope;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .social-media {
+        margin-top: 30px;
+        height: 28px;
+        img {
+            height: 26px;
+            width: 26px;
+        }
+    }
+
+}
+
+.footer-cont-left {
+    padding-left: 170px;
+    padding-top: 36px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    img{
+        filter: invert(1) grayscale(90%);
+    }
+}
+
